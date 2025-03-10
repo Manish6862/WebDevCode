@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes</title>
+</head>
+<body>
+    <h1>HTML input attributes</h1>
+    <h2> 1. The Value Attribute</h2>
+    <p>The value attribute specifies an initial value for an input field:</p>
+    <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="Manish"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Rajput"><br><br>
+        <input type="submit" value="Submit">
+        </form>
+
+
+
+        <h2>2. The readonly Attribute</h2>
+        <p>The readonly attribute specifies that an input field should be read-only (cannot be changed):</p>
+        <form>
+            <label for="hname">First name:</label><br>
+            <input type="text" id="hname" name="fname" value="Manish" readonly><br>
+            <label for="kname">Last name:</label><br>
+            <input type="text" id="kname" name="lname" value="Rajput"><br><br>
+            <input type="submit" value="Submit">   
+        </form>
+
+        <h2>3. The Disable Attribute</h2>
+        <p>The disabled attribute specifies that an input field should be disabled (unusable and un-clickable):</p>
+        <form>
+            <label for="iname">First name:</label><br>
+            <input type="text" id="iname" name="fname" value="Manish"><br>
+            <label for="rname">Last name:</label><br>
+             <input type="text" id="rname" name="lname" value="Rajput" disabled><br><br>
+            <input type="submit" value="Submit">   
+        </form>
+
+        <h2>4. The Input Size Attribute</h2>
+        <p>The size attribute specifies the width (in characters) of an input field:</p>
+        <form>
+            <label for="aname">First name:</label><br>
+            <input type="text" id="aname" name="fname" size="50"><br>
+            <label for="pin">PIN:</label><br>
+            <input type="text" id="pin" name="pin" size="4"><br><br>
+            <input type="submit" value="Submit">
+          </form>
+
+
+            <h2>5. The Maxlenth Attribute</h2>
+            <p>The maxlength attribute specifies the maximum number of characters allowed in an input field:</p>
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" size="50"><br>
+                <label for="pin">PIN:</label><br>
+                <input type="text" id="pin" name="pin" maxlength="4" size="10"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+              
+
+              <h2>6. The input min and max attributes</h2>
+              <p>The min and max attributes specify the minimum and maximum values for an input element.</p>
+              <form>
+                <label for="max">Enter a date befor 2005-08-01</label>
+                <input type="date" id="max" name="maximize" max="2005-08-01"><br><br>
+                <label for="max">Enter a date after 2010-05-01</label>
+                <input type="date" id="max" name="maximize" min="2010-05-01"><br><br>
+                <label for="quan">Quantity betwwen(1 to 5):</label>
+                <input type="number" id="quan" min="1" max="5"><br><br>
+                <input type="submit" value="submit">
+               </form>
+               
+
+               <h2>7. The input multiple attributes</h2>
+               <p>The multiple attribute specifies that the user is allowed to enter more than one value in an input field.</p>
+               <form>
+                <label for="file">Choose a file</label>
+                <input type="file" id="file" multiple><br><br>
+                <input type="submit" value="submit">
+               </form>
+
+
+               <h2>8. The input pattern attribute</h2>
+               <p>The pattern attribute specifies a regular expression that the input element's value is checked against.</p>
+              <form>
+               <label for="country_code">Country code:</label>
+               <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code"><br><br>
+               <input type="submit" value="Submit">
+              </form>
+
+
+              <h2>9. The input placeholder attribute</h2>
+              <p>The placeholder attribute specifies a short hint that describes the expected value of an input field.</p>
+              <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="sname" placeholder="Enter your name"><br><br> 
+                <label for="pass">Password:</label>              
+                <input type="password" id="pass" name="pass" placeholder="Enter your password"><br><br>
+                <input type="submit">
+            </form>
+
+
+            
+              <h2>10. The input required attribute</h2>
+              <p>The required attribute specifies that an input field must be filled out before submitting the form.</p>
+              <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+
+              <h2>11. The input step attribute</h2>
+              <p>The step attribute specifies the legal number intervals for an input element.</p>
+              <form>
+              Points: <input type="number" name="ponts" step="3"><br><br>
+              <input type="submit" value="Submit">
+              </form>
+
+
+
+              <h2>12. The input autofocus attribute</h2>
+              <p>The autofocus attribute specifies that the input field should automatically get focus when the page loads.</p>
+              <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" autofocus><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="submit" value="Submit">
+              </form>
+
+
+              <h1>13. Datalist Element</h1>
+              <p>The datalist element specifies a list of pre-defined options for an input element.</p>
+          
+              <form>
+                  <input list="city"  name="cityname">
+                  <datalist id="city">
+                      <option value="Aligarh">
+                      <option value="Agra">
+                      <option value="Dehradun">
+                      <option value="Gaziabad"> 
+                      <option value="Delhi">
+                      <option value="Mumbais">         
+                  </datalist>
+                  <input type="submit" values="submit">
+              </form>              
+         </body>
+</html>

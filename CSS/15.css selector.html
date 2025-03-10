@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+         div~p{
+            background-color: lightgoldenrodyellow;
+         }
+    </style>
+</head>
+<body>
+    <div>
+        <p>main 1</p>
+        <p>main 2</p>
+        <p>main 3</p>
+        <p>main 4</p>
+    </div>
+    <h1>Heading</h1>
+        <p>main 5</p>
+        <p>main 6</p>
+        <p>main 7</p>
+        <p>main 8</p>
+    <h2>Heading 2</h2>
+        <p>main 9</p>
+        <p>main 10</p>
+        <p>main 11</p>
+</body>
+</html>
+<!-- 1. Descendent Selector(space)
+ div p{
+                background-color: yellow;
+            }
+-->
+<!-- 2. Chield SElector(>)
+        .b>p{
+            background-color: yellow;
+         } 
+-->
+<!-- 3. adjacent sibling(+)
+         h1+p{
+            background-color: blue;
+          }
+-->
+<!-- 4. Gernal sibling(~)
+          div~p{
+            background-color: lightgoldenrodyellow;
+         }
+-->

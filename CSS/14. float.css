@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    
+}
+.a{
+    background-color: red;
+    width: 50%;
+    float: left;
+}
+.b{
+    background-color: pink;
+    width: 50%;
+    float: right;
+    
+}
+.c{
+    background-color: skyblue;
+    clear: left;
+}
+.d{
+    background-color: lightsalmon;
+}

@@ -1,0 +1,19 @@
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 10cm;
+    text-align: center;
+    background-color: lightyellow;
+}
+.abc{
+    background-color: green;
+    color: white;
+}
+.head{
+    background-color: yellow;
+    color:black;
+    font-size: 18px;
+}
+.mn{
+    font-weight: bold;
+}

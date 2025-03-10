@@ -1,0 +1,28 @@
+body{
+    margin-left: 6cm;
+    margin-top:  0;
+    height: 20cm;
+}
+div{
+    height: 1cm;
+    line-height: 1cm;
+    text-align: center;
+    
+}
+.a{
+    background-color: yellow;
+    width: 50%;
+}
+.b{
+    background-color: lightcoral;
+    width: 50%;
+}
+.c{
+    background-color: aqua;
+    width: 50%;
+
+}
+.d{
+    background-color: burlywood;
+    width: 50%;
+}

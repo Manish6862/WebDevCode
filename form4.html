@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Attributes</title>
+</head>
+<body>
+    <h1>Action Attribute</h1>
+    <!--After you submit, notice that the form values is visible in the address bar of the new browser tab-->
+    <!--After you submit, notice that, unlike the GET method, the form values is NOT visible in the address bar of the new browser tab.-->
+    <!--When autocomplete is on, the browser automatically complete values based on values that the user has entered before.-->   
+    <!--<form action="submited.html" method="post">-->
+    <form action="submited.html" method="get" autocomplete="off">
+        <label for="sname">Name:</label><br>
+        <input type="text" id="sname" name="stdname" placeholder="Enter yur name"><br><br>
+        <label for="usermail">Email:</label><br>
+         <input type="email" id="usermail" name="userlogin" placeholder="Enter your email"><br><br>
+         <label for="userpass">Password:</label><br>
+         <input type="password" id="userpass" name="userlogin" autocomplete="on" placeholder="Enter your password"><br><br>
+         <input type="submit" value="submit">
+         </form>
+         <h1>Novalidate Attribute</h1>
+         <p>The novalidate attribute indicates that the form input is not to be validated on submit:</p>
+         <form action="submited.html" method="get" autocomplete="on" novalidate>
+         <label for="usermail">Email:</label><br>
+         <input type="email" id="usermail" name="userlogin" placeholder="Enter your email"><br><br>
+         <input type="submit" value="submit">
+         </form>
+        </body>
+</html>

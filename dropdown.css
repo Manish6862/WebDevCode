@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:url(images/piture.jpg);
+}
+
+ul{
+    list-style-type: none;
+    background-color: black;
+    color: white;
+}
+ 
+ul li{
+    display: inline-block;
+    padding: 15px;
+}
+ul li:hover{
+background-color: green;
+}
+
+.dropdown{
+    display: none;
+}
+ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: -14.5px;
+}
+.dropdown ul li{
+display: block;
+}
+.dropdown ul{
+    margin:0;
+    padding: 0;
+
+}
+.dropdown ul{
+    background-color:rgb(16, 204, 225);
+    color:black;
+}
+.dropdown ul li:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+
+
+
+.gen {
+    display: none;
+}
+.dropdown ul li:hover .gen{
+    display:block;
+    position: absolute;
+    margin-left: 1.13cm;
+    margin-top: -0.87cm;
+}
+.gen ul{
+    background-color: brown;
+    color:white;
+}
+.gen ul li:hover{
+    background-color: chartreuse;
+    color:black
+}
