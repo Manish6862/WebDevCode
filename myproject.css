@@ -304,6 +304,21 @@ body {
     border-radius: 25px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
   }
+  .box1:hover{
+    transform: scale(1.05);
+  }
+  .box2:hover{
+    transform: scale(1.05);
+  }
+  .box3:hover{
+    transform: scale(1.05);
+  }
+  .box4:hover{
+    transform: scale(1.05);
+  }
+  .box5:hover{
+    transform: scale(1.05);
+  }
   .box:hover> :not(:hover){
     filter: blue(10px);
     opacity: 0.5;
