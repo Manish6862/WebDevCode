@@ -1,27 +1,24 @@
-body{
-    text-align: center;
-}
-div{
-    height: 50px;
-    width: 100px;
-    display: inline-block;
-    border: 2px solid rosybrown;
-}
-.container{
-    height: 400px;
-    width: 900px;
+/*  Question 1
+.nevbar{
+    background-color: pink;
     display: flex;
-    flex-direction: column;
+    justify-content: space-evenly;
 }
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+} */
 .box1{
-    background-color: lightcoral;
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    display: flex;
 }
 .box2{
-    background-color: lightskyblue;
-}
-.box3{
-    background-color: lightslategrey;
-}
-.box4{
-    background-color: lightgreen;
+    height: 100px;
+    width: 100px;
+    background-color:  red;
 }
