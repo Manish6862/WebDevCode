@@ -1,3 +1,27 @@
-h1{
+body{
     text-align: center;
+}
+div{
+    height: 50px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid rosybrown;
+}
+.container{
+    height: 400px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.box1{
+    background-color: lightcoral;
+}
+.box2{
+    background-color: lightskyblue;
+}
+.box3{
+    background-color: lightslategrey;
+}
+.box4{
+    background-color: lightgreen;
 }
