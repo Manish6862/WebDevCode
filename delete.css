@@ -1,0 +1,19 @@
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+.con{
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+.con{
+    background-size: cover;
+    background-position: center;
+}
