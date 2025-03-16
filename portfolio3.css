@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    overflow-x: hidden;
+}
+
+/* Navigation Bar */
+nav {
+    position: static;
+    top: 0;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    padding: 10px 20px;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+
+nav .logo h2 {
+    color: white;
+    font-size: 24px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav ul li a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: translateY(-3px);
+}
+
+/* Header Section */
+header {
+    margin-top: 80px; /* Header ko thoda upar rakhne ke liye */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    border: 5px solid #ff416c;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    background: -webkit-linear-gradient(45deg, #ff416c, #ff4b2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    margin-top: 12px;
+    background: #ff416c;
+    color: white;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.btn:hover {
+    background: #ff4b2b;
+    transform: scale(1.05);
+}
+
+/* Sections */
+.section {
+    margin: 80px 0;
+}
+#skills{
+    margin-bottom: 20px;
+}
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Boxes */
+.box {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    nav ul {
+        display: none;
+    }
+}
