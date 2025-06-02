@@ -1,6 +1,6 @@
 body {
     background: #6e6e6e;
-    height: 200cm;
+    height: 90cm;
     margin: 0;
     padding: 0;
   }
@@ -693,3 +693,70 @@ body {
       transform: scale(1.1);
       border: none;
     } 
+
+
+
+
+    .footer {
+  background-color: rgb(179, 165, 165);
+  padding: 130px 20px 230px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin-top: 100px;
+}
+.footer h2{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.footer-con{
+  height: 200px;
+  width: 208px;
+  margin-left: 30px;
+  margin-top: -110px;
+}
+.con{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  text-align: justify;
+
+}
+.widget-item a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-top: 10px;
+}
+.cards i{
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 8px;
+}
+.contact-address{
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+  line-height: 20px;
+}
+.contact-number, .contact-mail{
+  margin: 6px 0;
+  padding-top: 4px;
+
+}
+.contact-address i, .contact-number i, .contact-mail i{
+  margin-right: 10px;
+}
+.social-widget a{
+  display: inline-block;
+  font-size: 26px;
+  color: #6e5656;
+  margin: 5px 10px 0px 2px;
+}
+.copyright{
+  height: 50px;
+  width: 79rem;
+  background-color: black;
+  position: relative;
+  top: 233px;
+  margin-left: -20px;
+  padding-top: 0.1px;
+}
