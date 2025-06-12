@@ -1,0 +1,18 @@
+.circle-outline {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 6px solid rgba(0, 255, 255, 0.6); /* Light cyan transparent border */
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.4); /* Optional glow */
+}
+
+.circle-inner {
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+}
